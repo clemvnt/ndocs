@@ -84,8 +84,9 @@ export default defineConfig({
               children: [
                 { text: 'UI views', link: '' },
                 { text: 'UI components', link: '' },
-                { text: 'Menu', link: '' },
                 { text: 'Lookups', link: '' },
+                { text: 'Images', link: '' },
+                { text: 'Menus', link: '' },
               ],
             },
             {
@@ -94,8 +95,10 @@ export default defineConfig({
               collapsable: true,
               children: [
                 { text: 'Data objects', link: '' },
+                { text: 'Enumerations', link: '' },
                 { text: 'Notifications', link: '' },
                 { text: 'String resources', link: '' },
+                { text: 'Features', link: '' },
               ],
             },
           ],
