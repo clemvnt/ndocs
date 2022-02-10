@@ -39,10 +39,13 @@ export default defineConfig({
         {
           text: 'Getting started',
           children: [
-            { text: 'Introduction', link: '' },
+            { text: 'Introduction', link: '/docs/getting-started' },
             { text: 'Architecture', link: '' },
-            { text: 'Installation', link: '' },
-            { text: 'CLI', link: '' },
+            {
+              text: 'Installation',
+              link: '/docs/getting-started/installation',
+            },
+            { text: 'CLI', link: '/docs/getting-started/cli' },
           ],
         },
         {
