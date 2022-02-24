@@ -1,9 +1,18 @@
 import { defineConfig } from 'vitepress';
+import Unocss from 'unocss/vite';
+import { presetUno, presetIcons } from 'unocss';
 
 export default defineConfig({
   title: 'Neos',
   description: 'A full stack C# framework, from the database to the UI.',
   srcDir: 'src',
+  vite: {
+    plugins: [
+      Unocss({
+        presets: [presetUno(), presetIcons()],
+      }),
+    ],
+  },
   themeConfig: {
     nav: [
       {

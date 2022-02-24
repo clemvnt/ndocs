@@ -6,6 +6,11 @@
     "serve": "vitepress serve"
   },
   "devDependencies": {
+    "unocss": "^0.26.2",
     "vitepress": "^0.21.6"
+  },
+  "dependencies": {
+    "@iconify/json": "^2.1.6",
+    "@vueuse/core": "^7.6.2"
   }
 }

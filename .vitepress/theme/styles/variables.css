@@ -1,0 +1,13 @@
+:root {
+  --white: #ffffff;
+
+  --black: #1a1a1a;
+}
+
+:root {
+  --bg: var(--white);
+}
+
+.dark {
+  --bg: var(--black);
+}

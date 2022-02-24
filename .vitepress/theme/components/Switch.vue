@@ -1,0 +1,39 @@
+<template>
+  <button
+    class="
+      block
+      relative
+      w-40px
+      h-22px
+      flex-shrink-0
+      border
+      rounded-11px
+      border-gray-500
+      bg-gray-500
+    "
+    type="button"
+    role="switch"
+  >
+    <span
+      class="
+        switch-check
+        absolute
+        top-1px
+        bottom-1px
+        left-1px
+        transition
+        w-18px
+        h-18px
+        rounded-50%
+        bg-white
+      "
+    >
+      <span
+        class="relative block w-18px h-18px overflow-hidden"
+        v-if="$slots.default"
+      >
+        <slot />
+      </span>
+    </span>
+  </button>
+</template>

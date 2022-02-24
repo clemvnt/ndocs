@@ -3,7 +3,7 @@ home: true
 heroText: Neos
 tagline: A full stack C# framework, from the database to the UI.
 actionText: Get Started
-actionLink: /guide/
+actionLink: /docs/getting-started/installation
 features:
   - title: Simplicity First
     details: Minimal setup with markdown-centered project structure helps you focus on writing.
